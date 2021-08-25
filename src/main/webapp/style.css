@@ -1,0 +1,74 @@
+@charset "utf-8";
+
+@import
+	url('https://fonts.googleapis.com/css2?family=Jomhuria&display=swap');
+
+body {
+	font-family: 'Jomhuria', cursive;
+	font-size: 2em;
+	font-weight: 400;
+}
+
+h1 {
+	color: #191970;
+}
+
+.Botao1 {
+	text-decoration: none;
+	background-color: #191970;
+	padding: 5px 10px 5px 10px;
+	color: #fff;
+	font-size: 1.2em;
+	font-weight: 700;
+	border-radius: 5px;
+	border: 0;
+	cursor: pointer;
+}
+
+.Botao2 {
+	text-decoration: none;
+	background-color: #d51213;
+	padding: 5px 10px 5px 10px;
+	color: #fff;
+	font-size: 1.2em;
+	font-weight: 700;
+	border-radius: 5px;
+}
+
+.Caixa1 {
+	width: 320px;
+	padding: 5px;
+	margin-bottom: 10px;
+	border: 1px solid #191970;
+	border-radius: 5px;
+}
+
+.Caixa2 {
+	padding: 5px;
+	margin-bottom: 10px;
+	border: 1px solid #191970;
+	border-radius: 5px;
+}
+
+#caixa3 {
+	padding: 5px;
+	margin-bottom: 10px;
+	border: 1px solid #191970;
+}
+
+#tabela_contatos {
+	margin-bottom: 30px;
+}
+
+#tabela_contatos th {
+	border: 1px solid #ddd;
+	padding: 10px;
+	text-align: Left;
+	background-color: #191970;
+	color: #fff;
+}
+
+#tabela_contatos td {
+	border: 1px solid #ddd;
+	padding: 10px;
+}
